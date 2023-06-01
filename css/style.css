@@ -1,0 +1,113 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.unic-btn
+{
+    background-color: #00afaa;
+    color: white;
+    padding: 8px 12px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+
+.unic-btn:hover
+{
+    background-color: white;
+    color: #00afaa;
+    padding: 8px 12px;
+    border: 1px solid #00afaa;
+    outline: none;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.active
+{
+    color: #00afaa !important;
+}
+
+
+.benner-section
+{
+    background: url(../images/benar.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hover-item:hover
+{
+    color: #00afaa !important;
+    transition: all 0.3s;
+}
+
+
+.dark-background
+{
+    background-color: #1B222C;
+}
+
+.footer-background
+{
+    background-color: #3F454D;
+}
+
+.social-icons a
+{
+    width: 30px;
+    height: 30px;
+    display: block;
+    overflow: hidden;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    transition: 0.3s;
+
+}
+
+
+.social-icons a:first-child
+{
+    background-color: #c4302b;
+}
+
+.social-icons a:nth-child(2)
+{
+    background-color: #25d366;
+}
+
+.social-icons a:nth-child(3)
+{
+    background-color:  #00acee;
+}
+
+.social-icons a:nth-child(4)
+{
+    background-color: #0072b1;
+}
+
+.social-icons a:last-child
+{
+    background-color: #3b5998;
+}
+
+.social-icons a:hover
+{
+    background-color: white;
+    color: #333;
+
+}
+
